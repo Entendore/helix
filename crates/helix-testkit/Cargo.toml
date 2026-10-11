@@ -1,0 +1,12 @@
+[package]
+name = "helix-testkit"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+serde    = { workspace = true }
+ron      = { workspace = true }
+log      = { workspace = true }
+wgpu     = { workspace = true }
+pollster = { workspace = true }

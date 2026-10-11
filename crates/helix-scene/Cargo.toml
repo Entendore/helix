@@ -1,0 +1,13 @@
+[package]
+name = "helix-scene"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+helix-ecs    = { path = "../helix-ecs" }
+helix-assets = { path = "../helix-assets" }
+glam     = { workspace = true }
+bytemuck = { workspace = true }
+serde    = { workspace = true }
+ron      = { workspace = true }
+log      = { workspace = true }

@@ -1,0 +1,21 @@
+[package]
+name = "helix-app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "helix"
+path = "src/main.rs"
+
+[dependencies]
+helix-core    = { path = "../helix-core" }
+helix-ecs     = { path = "../helix-ecs" }
+helix-assets  = { path = "../helix-assets" }
+helix-scene   = { path = "../helix-scene" }
+helix-sim     = { path = "../helix-sim" }
+helix-render  = { path = "../helix-render" }
+glam  = { workspace = true }
+log   = { workspace = true }
+winit = { workspace = true }
+pollster = { workspace = true }
+env_logger = "0.11"

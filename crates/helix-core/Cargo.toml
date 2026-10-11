@@ -1,0 +1,10 @@
+[package]
+name = "helix-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glam  = { workspace = true }
+serde = { workspace = true }
+ron   = { workspace = true }
+log   = { workspace = true }

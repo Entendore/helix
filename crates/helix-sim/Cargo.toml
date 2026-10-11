@@ -1,0 +1,18 @@
+[package]
+name = "helix-sim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+helix-core    = { path = "../helix-core" }
+helix-ecs     = { path = "../helix-ecs" }
+helix-assets  = { path = "../helix-assets" }
+helix-scene   = { path = "../helix-scene" }
+glam     = { workspace = true }
+bytemuck = { workspace = true }
+serde    = { workspace = true }
+ron      = { workspace = true }
+log      = { workspace = true }
+
+[dev-dependencies]
+helix-testkit = { path = "../helix-testkit" }

@@ -1,0 +1,10 @@
+// TST-12: the test registry. Expectations live in tests/digests/<name>.hex,
+// recorded on first run, verified afterwards (drift names the fix).
+(
+    scenarios: [
+        ( name: "pillar_pushback", file: "pillar_pushback.ron",
+          gate: all, spec: "COL-2 DETERM-1 FX-1" ),
+        ( name: "wall_clamp", file: "wall_clamp.ron",
+          gate: all, spec: "TIME-1 WIN-1" ),
+    ],
+)

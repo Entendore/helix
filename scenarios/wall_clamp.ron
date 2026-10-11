@@ -1,0 +1,7 @@
+// Run +x into the world clamp (10.5), then release: position holds.
+( level: "default",
+  steps: 240,
+  timeline: [ (0, "move_x", 1.0), (180, "move_x", 0.0) ],
+  asserts: [
+    ( check: ( path: "transform.position.x", entity: "player", op: eq, value: 10.5 ) ),
+  ] )

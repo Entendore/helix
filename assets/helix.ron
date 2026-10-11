@@ -1,0 +1,3 @@
+// CFG-1: startup config (absent file = defaults; unknown keys warn).
+( vsync: true, interpolation: true, max_sim_steps: 5, window: (1280, 720),
+  seed: 68719476737 )  // 0x5EED_0000_0000_0001 — RNG-4: seed is config

@@ -1,0 +1,8 @@
+// Player runs diagonally into pillar_se (6,6): pushback holds x,z below 5.5.
+( level: "default",
+  steps: 180,
+  timeline: [ (0, "move_x", 1.0), (0, "move_y", 1.0) ],
+  asserts: [
+    ( check: ( path: "transform.position.x", entity: "player", op: lt, value: 5.5 ) ),
+    ( check: ( path: "transform.position.z", entity: "player", op: lt, value: 5.5 ) ),
+  ] )

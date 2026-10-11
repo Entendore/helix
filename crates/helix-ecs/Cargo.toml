@@ -1,0 +1,12 @@
+[package]
+name = "helix-ecs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+helix-core = { path = "../helix-core" }
+glam     = { workspace = true }
+bytemuck = { workspace = true }
+serde    = { workspace = true }
+bincode  = { workspace = true }
+log      = { workspace = true }

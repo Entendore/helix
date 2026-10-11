@@ -1,0 +1,16 @@
+[package]
+name = "helix-render"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["reverse-z"]
+reverse-z = []
+
+[dependencies]
+helix-assets = { path = "../helix-assets" }
+glam     = { workspace = true }
+bytemuck = { workspace = true }
+log      = { workspace = true }
+wgpu     = { workspace = true }
+winit    = { workspace = true }

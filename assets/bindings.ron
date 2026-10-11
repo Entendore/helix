@@ -1,0 +1,5 @@
+// ACT-1: axis-pair bindings; key names are winit PhysicalKey::Code names.
+( bindings: [
+    ( name: "move_x", neg: ["KeyA", "ArrowLeft"],  pos: ["KeyD", "ArrowRight"] ),
+    ( name: "move_y", neg: ["KeyW", "ArrowUp"],    pos: ["KeyS", "ArrowDown"] ),
+] )
